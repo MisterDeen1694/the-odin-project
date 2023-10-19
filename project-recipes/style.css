@@ -1,0 +1,19 @@
+.title {
+    text-align: center;
+}
+
+.list {
+    width: fit-content;
+    display: block;
+    margin: auto auto;
+}
+
+
+.list-item img {
+    width: 150px;
+    height: auto;
+}
+
+.list-item a {
+    color: #ff00ff;
+}
