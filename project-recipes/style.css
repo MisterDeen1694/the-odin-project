@@ -1,19 +1,34 @@
-.title {
+body {
+    background-color: #140F00;
+    color: #FEF9EC;
+}
+
+.card {
+    margin: 0 auto;
+    width: 400px;
+    background-color: #291F00;
+    padding: 25px;
+}
+
+.card .title {
     text-align: center;
+    margin: 0  0 25px 0;
 }
 
-.list {
-    width: fit-content;
-    display: block;
-    margin: auto auto;
+.card .title span {
+    color: #FF8400;
 }
 
-
-.list-item img {
-    width: 150px;
-    height: auto;
+.card img {
+    max-width: 100%;
 }
 
-.list-item a {
-    color: #ff00ff;
+.card .list li {
+    font-size: 20px;
+    color: #f86c30;
+    margin: 10px 0px;
+}
+
+a {
+    color: #FF8400;
 }
