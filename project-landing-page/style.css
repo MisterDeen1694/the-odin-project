@@ -138,3 +138,50 @@
     font-size: 15px;
     color: #1F2937;
 }
+
+.bg-qoute .container {
+    display: flex;
+    padding: 100px 0px;
+    justify-content: center;
+    width: 680px;
+}
+
+.qoute .text-secondary {
+    color: #1F2937;
+    float: right;
+    margin-right: 45px;
+}
+
+.call {
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 50px 0px;
+    display: flex;
+    padding: 48px 82px;
+    color: #F9FAF8;
+}
+
+.call .text {
+    flex-grow: 2;
+}
+
+.call .button {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call .button button {
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: #F9FAF8;
+}
+
+.copy {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+}
